@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
+
 # Load and clean data
 @st.cache
 def load_and_clean_data(file_path):
